@@ -14,9 +14,8 @@ namespace PasswordHashingTests
             string password = null;
             string salt = "abc";
             uint adlerMod32 = 12;
-            string expected = null;
             string actual = PasswordHasher.GetHash(password, salt, adlerMod32);
-            Assert.Equal(expected, actual);
+            Assert.Null(actual);
         }
 
         [Fact]
@@ -25,9 +24,8 @@ namespace PasswordHashingTests
             string password = null;
             string salt = null;
             uint adlerMod32 = 12;
-            string expected = null;
             string actual = PasswordHasher.GetHash(password, salt, adlerMod32);
-            Assert.Equal(expected, actual);
+            Assert.Null(actual);
         }
 
         [Fact]
@@ -36,9 +34,8 @@ namespace PasswordHashingTests
             string password = null;
             string salt = "";
             uint adlerMod32 = 12;
-            string expected = null;
             string actual = PasswordHasher.GetHash(password, salt, adlerMod32);
-            Assert.Equal(expected, actual);
+            Assert.Null(actual);
         }
 
         [Fact]
@@ -47,9 +44,8 @@ namespace PasswordHashingTests
             string password = null;
             string salt = "abc";
             uint adlerMod32 = 0;
-            string expected = null;
             string actual = PasswordHasher.GetHash(password, salt, adlerMod32);
-            Assert.Equal(expected, actual);
+            Assert.Null(actual);
         }
 
         [Fact]
@@ -58,9 +54,8 @@ namespace PasswordHashingTests
             string password = "password";
             string salt = "abc";
             uint adlerMod32 = 12;
-            string expected = null;
             string actual = PasswordHasher.GetHash(password, salt, adlerMod32);
-            Assert.NotEqual(expected, actual);
+            Assert.NotNull(actual);
         }
 
         [Fact]
@@ -69,9 +64,8 @@ namespace PasswordHashingTests
             string password = "password";
             string salt = null;
             uint adlerMod32 = 12;
-            string expected = null;
             string actual = PasswordHasher.GetHash(password, salt, adlerMod32);
-            Assert.NotEqual(expected, actual);
+            Assert.NotNull(actual);
         }
 
         [Fact]
@@ -80,9 +74,8 @@ namespace PasswordHashingTests
             string password = "password";
             string salt = "";
             uint adlerMod32 = 12;
-            string expected = null;
             string actual = PasswordHasher.GetHash(password, salt, adlerMod32);
-            Assert.NotEqual(expected, actual);
+            Assert.NotNull(actual);
         }
 
         [Fact]
@@ -91,9 +84,8 @@ namespace PasswordHashingTests
             string password = "password";
             string salt = "";
             uint adlerMod32 = 0;
-            string expected = null;
             string actual = PasswordHasher.GetHash(password, salt, adlerMod32);
-            Assert.NotEqual(expected, actual);
+            Assert.NotNull(actual);
         }
 
         [Fact]
@@ -102,9 +94,8 @@ namespace PasswordHashingTests
             string password = "password";
             string salt = null;
             uint adlerMod32 = 0;
-            string expected = null;
             string actual = PasswordHasher.GetHash(password, salt, adlerMod32);
-            Assert.NotEqual(expected, actual);
+            Assert.NotNull(actual);
         }
 
         [Fact]
@@ -113,9 +104,8 @@ namespace PasswordHashingTests
             string password = "password";
             string salt = "salt";
             uint adlerMod32 = 78;
-            string expected = null;
             string actual = PasswordHasher.GetHash(password, salt, adlerMod32);
-            Assert.NotEqual(expected, actual);
+            Assert.NotNull(actual);
         }
 
         [Fact]
@@ -124,9 +114,8 @@ namespace PasswordHashingTests
             string password = null;
             string salt = "salt";
             uint adlerMod32 = 0;
-            string expected = null;
             string actual = PasswordHasher.GetHash(password, salt, adlerMod32);
-            Assert.Equal(expected, actual);
+            Assert.Null(actual);
         }
     }
 }

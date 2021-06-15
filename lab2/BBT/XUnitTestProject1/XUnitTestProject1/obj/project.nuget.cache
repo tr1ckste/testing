@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OY0GsYOObp5TG8mWF4EGNe4kYdDwkISkx2sua1a4Kmiu5ZXIKKmizisXcqP2WXTB34vmbIEzsNDc+Nc7xBMZQA==",
+  "dgSpecHash": "MMSItJ2cto+d9R28vDvKxGA5/VtnMlRoZ/+qTXc5jJ9us8LnNOLAoTpJpeazhPk7YGLnZkYYZfdQIhuhsomDEw==",
   "success": true,
-  "projectFilePath": "E:\\work\\tests\\lab2\\BBT\\XUnitTestProject1\\XUnitTestProject1\\XUnitTestProject1.csproj",
+  "projectFilePath": "E:\\work\\testing\\lab2\\BBT\\XUnitTestProject1\\XUnitTestProject1\\XUnitTestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikit\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\nikit\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",

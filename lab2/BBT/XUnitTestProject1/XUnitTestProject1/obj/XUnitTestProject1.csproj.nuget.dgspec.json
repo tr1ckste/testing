@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\work\\tests\\lab2\\BBT\\XUnitTestProject1\\XUnitTestProject1\\XUnitTestProject1.csproj": {}
+    "E:\\work\\testing\\lab2\\BBT\\XUnitTestProject1\\XUnitTestProject1\\XUnitTestProject1.csproj": {}
   },
   "projects": {
-    "E:\\work\\tests\\lab2\\BBT\\XUnitTestProject1\\XUnitTestProject1\\XUnitTestProject1.csproj": {
+    "E:\\work\\testing\\lab2\\BBT\\XUnitTestProject1\\XUnitTestProject1\\XUnitTestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\work\\tests\\lab2\\BBT\\XUnitTestProject1\\XUnitTestProject1\\XUnitTestProject1.csproj",
+        "projectUniqueName": "E:\\work\\testing\\lab2\\BBT\\XUnitTestProject1\\XUnitTestProject1\\XUnitTestProject1.csproj",
         "projectName": "XUnitTestProject1",
-        "projectPath": "E:\\work\\tests\\lab2\\BBT\\XUnitTestProject1\\XUnitTestProject1\\XUnitTestProject1.csproj",
+        "projectPath": "E:\\work\\testing\\lab2\\BBT\\XUnitTestProject1\\XUnitTestProject1\\XUnitTestProject1.csproj",
         "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-        "outputPath": "E:\\work\\tests\\lab2\\BBT\\XUnitTestProject1\\XUnitTestProject1\\obj\\",
+        "outputPath": "E:\\work\\testing\\lab2\\BBT\\XUnitTestProject1\\XUnitTestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",
